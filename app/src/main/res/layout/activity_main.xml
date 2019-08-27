@@ -6,9 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.miaozi.messagedragview.MessageDragView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-       />
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/tv"
+        android:layout_margin="50dp"
+        android:padding="5dp"
+        android:background="@color/colorAccent"
+        android:text="苗子"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/iv"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
